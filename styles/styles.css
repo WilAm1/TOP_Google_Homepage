@@ -5,6 +5,7 @@ font-size: 14px;
 display: flex;
 flex-flow: column;
 justify-content: space-between;
+font-family: 'Poppins', sans-serif; 
 }
 a{
     color: inherit;
@@ -13,7 +14,7 @@ a{
 }
 .navbar{
     display: flex;
-    background-color: aquamarine;
+    background-color: transparent;
     flex-flow: wrap row;
     justify-content: flex-end;
     align-items:center;
@@ -33,7 +34,7 @@ a{
 }
 
 main{
-    height: 73vh;
+    height: 70vh;
     margin: 1rem;
 }
 .google-img{
@@ -70,6 +71,7 @@ input:focus-visible{
 }
 .buttons{
     margin: 3rem;
+    margin-bottom: 1.5rem;
 }
 .buttons a{
     border-radius: 5px;
@@ -84,6 +86,7 @@ input:focus-visible{
 }
 .footer a:hover{
     text-decoration: underline;
+    color: rebeccapurple;
 }
 .country{
     flex-flow: wrap row;
@@ -100,11 +103,11 @@ input:focus-visible{
     align-items: center;
     width: 95%;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .border{
     height: 1px;
-    border-top: grey 1px solid;
+    border-top: 1px solid #dadce0
 }
 .footer-about-links{
     display: flex;
@@ -116,4 +119,13 @@ input:focus-visible{
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
+}
+.language a{
+    color: rebeccapurple;
+    margin: 10px;
+}
+
+.language a:hover{
+    text-decoration: underline;
+    
 }
