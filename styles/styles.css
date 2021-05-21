@@ -14,13 +14,24 @@ a{
     flex-flow: wrap row;
     justify-content: flex-end;
     align-items:center;
+    width: 99%;
 }
 .navbar a{
     margin: 0 1rem;
 }
-.nav
+.sign-in a{
+    background-color: #1a73e8;
+    padding: 9px 23px;
+    color: white;
+    border-radius: 5px;;
+}
 .navbar img{
     transform: scale(.5);
+}
+
+main{
+    height: 73vh;
+    margin: 1rem;
 }
 .google-img{
     max-width: 100%;
