@@ -83,6 +83,9 @@ input:focus-visible{
     text-align: left;
     background-color: #f2f2f2   ;
     color: #95999c;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .footer a:hover{
     text-decoration: underline;
@@ -103,7 +106,7 @@ input:focus-visible{
     align-items: center;
     width: 95%;
     margin: 0 auto;
-    margin-bottom: 1rem;
+    
 }
 .border{
     height: 1px;
@@ -117,7 +120,7 @@ input:focus-visible{
 }
 .footer-setting-links {
     display: flex;
-    width: 30vw;
+    width: 15vw;
     justify-content: space-evenly;
 }
 .language a{
