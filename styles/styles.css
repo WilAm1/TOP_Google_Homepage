@@ -2,6 +2,9 @@ body{
 margin: 0;
 text-align: center;
 font-size: 14px;
+display: flex;
+flex-flow: column;
+justify-content: space-between;
 }
 a{
     color: inherit;
@@ -72,4 +75,45 @@ input:focus-visible{
     border-radius: 5px;
     background-color: #f8f9fa;
     padding: 10px;
+}
+
+.footer{
+    text-align: left;
+    background-color: #f2f2f2   ;
+    color: #95999c;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.country{
+    flex-flow: wrap row;
+    width: 95%;
+    margin: 0 auto;
+}
+.footer-links{
+    display: flex;
+    flex-flow: wrap row;
+    
+    justify-content: space-between;
+    margin: 1rem 10px;
+    padding-top: 10px;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.border{
+    height: 1px;
+    border-top: grey 1px solid;
+}
+.footer-about-links{
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    
+}
+.footer-setting-links {
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
 }
