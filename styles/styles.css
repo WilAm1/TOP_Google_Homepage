@@ -1,0 +1,17 @@
+body{
+margin: 0;
+text-align: center;
+}
+.navbar{
+    display: flex;
+    background-color: aquamarine;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a{
+    margin: 0 1rem;
+}
+.navbar img{
+    transform: scale(.5);
+}
